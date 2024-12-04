@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f4f4f4, #e6e6e6);
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.car-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+.about-us {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.team {
+    text-align: center;
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    text-align: center;
+    padding: 15px;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+}
+
+.team-member p {
+    color: #666;
+}
+.services {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+.service {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.service h2 {
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+
+.service p {
+    color: #555;
+    line-height: 1.6;
+}
